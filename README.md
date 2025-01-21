@@ -1,6 +1,6 @@
 # Urban Data Science & Smart Cities
 **URSP688Y**<br>
-**Spring 2024**<br>
+**Spring 2025**<br>
 Urban Studies and Planning<br>
 School of Architecture, Planning, and Preservation<br>
 University of Maryland, College Park
@@ -10,29 +10,29 @@ Chester Harvey<br>
 National Center for Smart Growth<br>
 [cwharvey@umd.edu](cwharvey@umd.edu)
 
-This repository contains files and other course content for URSP688Y, *Urban Data Science and Smart Cities*, in Spring 2024. It will be updated regularly throughout the semester. Official announcements, readings, and grades will be handled on [ELMS-Canvas](https://umd.instructure.com/courses/1362486). 
+This repository contains files and other course content for URSP688Y, *Urban Data Science and Smart Cities*, in Spring 2025. It will be updated regularly throughout the semester. Official announcements, readings, and grades will be handled on [ELMS-Canvas](https://umd.instructure.com/courses/1362486). 
 
-Students should submit all assignments as pull requests to this repository. Any submitted materials will be public.
+Students should submit all assignments as pull requests to this repository. All submitted materials will be public.
 
 ## Quick Links & Overview
-|Week|Topic|Format|Discussion Leader|Demo|Exercise|
-|:--|:--|:--|:--|:--|:--|
-|[Week 1: Jan 29](#january-29th-week-1)|[Course Introduction](https://docs.google.com/presentation/d/1vllGdhjq-d0KDmlYgA3P2gRUajX4qryOYB5n8_H7aEw/edit?usp=sharing), Programming Fundamentals|***In-Person***|-|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo01/demo01.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise01/exercise01.ipynb)|
-|[Week 2: Feb 5](#february-5th-week-2)|More Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|Jesse|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo02/demo02.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise02/exercise02.ipynb)|
-|[Week 3: Feb 12](#february-12th-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Kayla, Fahmi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo03/demo03.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise03/exercise03.ipynb)|
-|[Week 4: Feb 19](#february-19th-week-4)|Debugging and Working with Files|[Zoom](https://umd.zoom.us/j/97370863271)|Jona|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo04/demo04.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise04/exercise04.ipynb)|
-|[Week 5: Feb 26](#february-26th-week-5)|Basic Data Visualization|***In-Person***|Alanna, Mimi|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo05/demo05.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise05/exercise05.ipynb)|
-|[Week 6: Mar 4](#march-4th-week-6)|Accessing (and Wrangling) Data from the Web|[Zoom](https://umd.zoom.us/j/97370863271)|Salma|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo06/demo06.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise06/exercise06.ipynb)|
-|[Week 7: Mar 11](#march-11th-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Emma, Katy|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo07/demo07.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise07/exercise07.ipynb)|
-|[Spring Break: Mar 18](#march-18th-spring-break)|🏄|***NO CLASS***|-|-|-|
-|[Week 8: Mar 25](#march-25th-week-8)|[Final Project Proposal](#short-proposal-due-march-25th-5001000-words-10-of-course-grade), Set up Miniconda and JupyterLab (optional)|***NO CLASS***|-|-|[Final Project: Short Proposals Due](https://umd.instructure.com/courses/1362486/assignments/6695883)|
-|[Week 9: Apr 1](#april-1st-week-9)|Geospatial Data (cont.)|[Zoom](https://umd.zoom.us/j/97370863271)|Thomas, John|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo09/demo09.ipynb)||
-|[Week 10: Apr 8](#april-8th-week-10)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Tayo, Sururah|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo10/demo10.ipynb)|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/exercises/exercise10/exercise10.ipynb)|
-|[Week 11: Apr 15](#april-15th-week-11)|Spatial Visualization|***In-Person***|Saiful|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo11/demo11.ipynb)||
-|[Week 12: Apr 22](#april-22nd-week-12)|[BI Software](https://umd.instructure.com/courses/1362486/files/folder/Uploaded%20Media?preview=78327552)|[Zoom](https://umd.zoom.us/j/97370863271)|Homayoon|||
-|[Week 13: Apr 29](#april-29th-week-13)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Ebenezer|[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/ncsg/ursp688y_sp2024/blob/main/demos/demo13/demo13.ipynb)||
-|[Week 14: May 6](#may-6th-week-14)|[Final Project Presentations](#presentation-in-class-april-29th-10-minutes-10-of-course-grade)|***In-Person***|-|-|[Final Project: Slides Due](https://umd.instructure.com/courses/1362486/assignments/6695884)|
-|[Week -1: May 13](#may-13th)|[Final Project](#final-product-due-may-6th-see-above-for-recommended-lengths-and-formats-30-of-course-grade)|***NO CLASS***|-|-|[Final Project: Final Product Due](https://umd.instructure.com/courses/1362486/assignments/6695886)|
+|Week|Topic|Format|Discussion Leader|
+|:--|:--|:--|:--|
+|[Week 1: Jan 27](#january-27-week-1)|Course Introduction; Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 2: Feb 3](#february-3-week-2)|Jupyter Setup; Programming Environments|***In-Person***|Chester|
+|[Week 3: Feb 10](#february-19-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 4: Feb 17](#february-17-week-4)|Working with Files|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 5: Feb 24](#february-24-week-5)|Data Visualization|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 6: Mar 3](#march-3-week-6)|Accessing and Wrangling Data from the Web|***In-Person***||
+|[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Spring Break](#march-17-spring-break)| 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 |***NO CLASS***||
+|[Week 8: Mar 24](#march-24th-week-8)|Final Project Proposal Workshop|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 9: Mar 31](#march-31-week-9)|More Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 10: Apr 7](#april-7-week-10)|Network Analysis|***In-Person***||
+|[Week 11: Apr 14](#april-14-week-11)|Spatial Visualization|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 12: Apr 21](#april-21-week-12)|Dashboards|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 14: Apr 28](#april-28-week-13)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)||
+|[Week 14: May 5](#may-5-week-14)|Final Project Presentations|***In-Person***||
+|[Week 15: May 12](#may-13-week-15)|Final Project Due|***NO CLASS***||
 
 ## Technology
 
