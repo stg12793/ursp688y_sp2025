@@ -1,44 +1,25 @@
-Here are all the detailed steps for getting your exercise from GitHub into Colab, then committing it back to GitHub and making a pull request to submit.
+Here are all the detailed steps for getting your exercise from GitHub, then committing it back to GitHub and making a pull request to submit.
 
 It looks complicated, and there are a few places where the details matter. But once you do it several times it will feel natural and make a lot more sense.
 
-#### Part 0: Fork the course repo (you'll only have to do this once)
-0. Fork the [`ncsg/ursp688y_sp2024`](https://github.com/ncsg/ursp688y_sp2024) repo to your own account.
+These instructions assume that you have already made a personal GitHub account and installed GitHub Desktop on your computer
 
-#### Part 1: Save your own version of the exercise notebook in Colab
-2. Open on the exercise you want to work on in Github.
-3. Click on the Colab badge to open it in Colab.
-4. Save a working copy of the notebook in your Google Drive. This is where your changes will save while you're working.
-   - Go to `File -> Save a copy in Drive`.
-   - It will automatically save in a folder called Colab Notebooks in the root Drive directory for whatever account is currently signed into Google.
-   - Please remove `Copy of ` from the beginning of the filename and add your last name as an underscored suffix (e.g., `exercise01_harvey.ipynb`)
-   - You are welcome to move the file elsewhere in your Drive for your own organization.
+#### Part 0: Fork the course repo at GitHub.com (only the first time)
+0. Fork the [`ncsg/ursp688y_sp2025`](https://github.com/ncsg/ursp688y_sp2025) repo to your own account at GitHub.com.
 
-#### Part 2: Do the exercise in Colab—save early and often
+#### Part 1: Clone your fork in GitHub Desktop (only the first time)
+1. Go to File -> Clone Repository
+2. Click on your fork of the repository in the GitHub.com list (`yourname/ursp688y_sp2025`)
+3. Select "To contribute to the parent project" in the dialog about you're planning to use this fork.
 
-#### Part 3: Commit the exercise notebook to your own fork
-5. Make sure your notebook is named with the convention above (e.g., `exercise01_harvey.ipynb`).
-6. Use one of two methods to "commit" the file to your fork of the repository.
-   1. **OPTION A: Commit to GitHub by dragging and dropping a downloaded file (Easier)**
-        -  Download your notebook from Colab (`File -> Download -> Download .ipynb`).
-        -  Go to your fork of the course repo on the GitHub website (https://github.com/insert_your_username/ursp688y_sp2024).
-        -  Navigate into the appropriate exercise folder.
-        -  Click `Add file` in the upper-right, then `Upload files`.
-        -  Drag your _**appropriately named**_ file into the `Drag files here...` space.
-        -  Add a short but meaningful commit message (e.g. "completed exercise 1").
-        -  Click `Commit changes` (Commit directly to your `main` branch).
-   2. **OPTION B: Commit to GitHub directly from Colab (Slightly more advanced, but also more convenient)**
-        - Make sure your notebook is appropriately named (e.g., `exercise01_harvey.ipynb`).
-        - In Colab, go to `File -> Save a Copy in GitHub`.
-        - _**BE CAREFUL WITH THE DETAILS IN THIS PART**_
-        - Select your fork of the course repo in the `Repository` dropdown. The branch should be `master`.
-        - Change the `File path` to include the folder in the repo where you want the file to be committed (e.g., `exercises/exercise01/exercise01_harvey.ipynb`)
-            - If you don't use the right path, your file will end up in the wrong place in the repo and I'll return your pull request for edits.
-        - Change the `Commit message` to something short but meaningful (e.g. "completed exercise 1"). It's fine to include a link to Colab. 
+#### Part 2: Edit and commit to your fork
+4. Run Jupyter Lab in the directory where your fork is cloned
+5. Add code, data, etc.
+6. Commit each major change
+7. 
 
-#### Part 4: Make a pull request to the course repo
+#### Part 3: Make a pull request to the course repo
 
-7. Finally, make a "pull request" so that I can see your new file and add it to the course repository (right now it's just on your fork).
 8. In your fork on the GitHub website, navigate to the root directory
 9. `Sync fork` to make sure your file is the only difference between your fork and the course repo.
     - If prompted, DON'T click the red `Discard commits` button to delete the file you just added; click the green `Update branch` button to sync everything else that might have changed.
