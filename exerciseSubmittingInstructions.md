@@ -12,7 +12,11 @@ These instructions assume that you have already made a personal GitHub account a
 2. Click on your fork of the repository in the GitHub.com list (`yourname/ursp688y_sp2025`)
 3. Select "To contribute to the parent project" in the dialog about you're planning to use this fork.
 
-#### Part 2: Do your coding in the directory where your fork is cloned. Commit each major change.
+#### Part 2: Edit and commit to your fork
+4. Run Jupyter Lab in the directory where your fork is cloned
+5. Add code, data, etc.
+6. Commit each major change
+7. 
 
 #### Part 3: Make a pull request to the course repo
 
