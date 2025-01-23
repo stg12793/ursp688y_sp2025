@@ -20,7 +20,6 @@ These instructions assume that you have already made a personal GitHub account a
 8. Rinse and repeat...
 
 #### Part 3: Make a pull request to the course repo
-
 9. In your fork on the GitHub website, navigate to the root directory
 9. `Sync fork` to make sure your new additions are the only differences between your fork and the course repo.
     - If prompted, DON'T click the red `Discard commits` button to delete the file you just added; click the green `Update branch` button to sync everything else that might have changed.
