@@ -372,15 +372,14 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Supervised and unsupervised learning
   - Classification
 - Reading seminar
-  - Goodspeed, R. (2022). Leveraging the promise of smart cities to advance smart growth. In _Handbook on Smart Growth_ (pp. 307–322). Edward Elgar Publishing. <https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml>
+  - Kandt, J., & Batty, M. (2021). Smart cities, big data and urban policy: Towards urban analytics for the long run. _Cities_, _109_, 102992. <https://doi.org/10.1016/j.cities.2020.102992> 
 
 ### April 28 (Week 13)
 
 - \[lab space held for a student-requested topic\]
 - Code Review Workshop
 - Reading seminar
-  - Kandt, J., & Batty, M. (2021). Smart cities, big data and urban policy: Towards urban analytics for the long run. _Cities_, _109_, 102992. <https://doi.org/10.1016/j.cities.2020.102992>
-- Final project consultations
+  - Goodspeed, R. (2022). Leveraging the promise of smart cities to advance smart growth. In _Handbook on Smart Growth_ (pp. 307–322). Edward Elgar Publishing. <https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml>
 
 ### May 5 (Week 14)
 
