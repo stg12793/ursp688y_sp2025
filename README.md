@@ -298,8 +298,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Repository structure
 - Code Review Workshop
 - Reading seminar
-  - Chapter 3: “Smart Cities as Emerging Markets” (pp. 57–94)  
-        Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
+  - Kitchin, R. (2014). The real-time city? Big data and smart urbanism. _GeoJournal_, _79_(1), 1–14. <https://doi.org/10.1007/s10708-013-9516-8>
 
 ### February 24 (Week 5)
 
@@ -309,7 +308,8 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Messy data
   - Big data
 - Reading seminar
-  - Kitchin, R. (2014). The real-time city? Big data and smart urbanism. _GeoJournal_, _79_(1), 1–14. <https://doi.org/10.1007/s10708-013-9516-8>
+  - Chapter 3: “Smart Cities as Emerging Markets” (pp. 57–94)  
+        Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### March 3 (Week 6)
 
