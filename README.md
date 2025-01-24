@@ -357,14 +357,14 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Mapping in Python
 - Code Review Workshop
 - Reading seminar
-  - \[Chapter 7: “Smart Cities as the New Uneven Development” (pp. 181–200)\]  
-        Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
+  - Hatch, M. E., Raymond, E. L., Teresa, B. F., & Howell, K. (2023). A data feminist approach to urban data practice: Tenant power through eviction data. _Journal of Urban Affairs_, _0_(0), 1–20. <https://doi.org/10.1080/07352166.2023.2262629>
 
 ### April 14 (Week 11)
 
 - Dashboards
 - Reading seminar
-  - Hatch, M. E., Raymond, E. L., Teresa, B. F., & Howell, K. (2023). A data feminist approach to urban data practice: Tenant power through eviction data. _Journal of Urban Affairs_, _0_(0), 1–20. <https://doi.org/10.1080/07352166.2023.2262629>
+  - \[Chapter 7: “Smart Cities as the New Uneven Development” (pp. 181–200)\]  
+        Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
 ### April 21 (Week 12)
 
