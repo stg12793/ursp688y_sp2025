@@ -32,7 +32,7 @@ Students should submit all assignments as pull requests to this repository. All 
 |[Week 12: Apr 21](#april-21-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4||
 |[Week 14: Apr 28](#april-28-week-13)|TBD|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4 Code Review||
 |[Week 14: May 5](#may-5-week-14)|Final Project Presentations|***In-Person***|||
-|[Week 15: May 12](#may-13-week-15)|Final Project Due|***NO CLASS***|Final Project Materials||
+|[Week 15: May 12](#may-12-week-15)|Final Project Due|***NO CLASS***|Final Project Materials||
 
 ## Technology
 
@@ -231,7 +231,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 ## Schedule
 
-### January 27 (Week 1) — Zoom
+### January 27 (Week 1)
 
 - Course introduction
   - Why data science?
@@ -259,7 +259,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading Seminar
   - Somers, J. (2023). Begin End: A coder on the waning days of the craft. _New Yorker_, 99(38), 14-18. ([Direct Link](https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft)) ([UMD Link](https://web-p-ebscohost-com.proxy-um.researchport.umd.edu/ehost/detail/detail?vid=7&sid=acd05f73-fc24-46b8-84dd-909174c20503%40redis&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=173542209&db=ulh))
 
-### February 3 (Week 2) — In-Person
+### February 3 (Week 2)
 
 - Development environment
   - Conda
@@ -276,7 +276,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - Chapter 1: “Uneven Innovation: The Evolution of the Urban Technology Project” (pp. 1–30) Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
-### February 10 (Week 3) — Zoom
+### February 10 (Week 3)
 
 - Tabular Analysis
   - Table structure
@@ -289,7 +289,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - Wilson, G., Aruliah, D. A., Brown, C. T., Hong, N. P. C., Davis, M., Guy, R. T., Haddock, S. H. D., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. (2014). Best Practices for Scientific Computing. _PLOS Biology_, _12_(1), e1001745. <https://doi.org/10.1371/journal.pbio.1001745>
 
-### February 17 (Week 4) — Zoom
+### February 17 (Week 4)
 
 - Modular programming and generalizability
   - Writing and importing modules
@@ -298,7 +298,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Chapter 3: “Smart Cities as Emerging Markets” (pp. 57–94)  
         Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
-### February 24 (Week 5) — Zoom
+### February 24 (Week 5)
 
 - Accessing and wrangling data
   - APIs
@@ -308,7 +308,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - Kitchin, R. (2014). The real-time city? Big data and smart urbanism. _GeoJournal_, _79_(1), 1–14. <https://doi.org/10.1007/s10708-013-9516-8>
 
-### March 3 (Week 6) — In-Person
+### March 3 (Week 6)
 
 - Data visualization
   - Principles of graphic communication
@@ -319,7 +319,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - \[Chapter 6: “Smart Cities as Participatory Planning” (pp. 156–180)\]  
         Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
-### March 10 (Week 7) — Zoom
+### March 10 (Week 7)
 
 - Geospatial data
   - Points, linestrings, and polygons
@@ -334,17 +334,17 @@ This course is inspired by numerous other courses and colleagues, especially:
 
 - Spring Break
 
-### March 24 (Week 8) — Zoom
+### March 24 (Week 8)
 
 - Final Project Proposal Workshop
 
-### March 31 (Week 9) — Zoom
+### March 31 (Week 9)
 
 - Network analysis
 - Reading seminar
   - Pereira, R. H. M. (2019). Future accessibility impacts of transport policy scenarios: Equity and sensitivity to travel time thresholds for Bus Rapid Transit expansion in Rio de Janeiro. _Journal of Transport Geography_, _74_, 321–332. <https://doi.org/10.1016/j.jtrangeo.2018.12.005>
 
-### April 7 (Week 10) — In-Person
+### April 7 (Week 10)
 
 - Spatial visualization
   - Map design fundamentals
@@ -354,13 +354,13 @@ This course is inspired by numerous other courses and colleagues, especially:
   - \[Chapter 7: “Smart Cities as the New Uneven Development” (pp. 181–200)\]  
         Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
 
-### April 14 (Week 11) — Zoom
+### April 14 (Week 11)
 
 - Dashboards
 - Reading seminar
   - Hatch, M. E., Raymond, E. L., Teresa, B. F., & Howell, K. (2023). A data feminist approach to urban data practice: Tenant power through eviction data. _Journal of Urban Affairs_, _0_(0), 1–20. <https://doi.org/10.1080/07352166.2023.2262629>
 
-### April 21 (Week 12) — Zoom
+### April 21 (Week 12)
 
 - Machine learning
   - Supervised and unsupervised learning
@@ -368,17 +368,17 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - Goodspeed, R. (2022). Leveraging the promise of smart cities to advance smart growth. In _Handbook on Smart Growth_ (pp. 307–322). Edward Elgar Publishing. <https://www.elgaronline.com/edcollchap/book/9781789904697/book-part-9781789904697-31.xml>
 
-### April 28 (Week 13) — Zoom
+### April 28 (Week 13)
 
 - \[lab space held for a student-requested topic\]
 - Reading seminar
   - Kandt, J., & Batty, M. (2021). Smart cities, big data and urban policy: Towards urban analytics for the long run. _Cities_, _109_, 102992. <https://doi.org/10.1016/j.cities.2020.102992>
 - Final project consultations
 
-### May 5 (Week 14) — In-Person
+### May 5 (Week 14)
 
 - Final project presentations
 
-### May 12 — NO CLASS
+### May 12 (Week 15)
 
 - Final project due
