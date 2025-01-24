@@ -19,7 +19,7 @@ Students should submit all assignments as pull requests to this repository. All 
 |:--|:--|:--|:--|:--|
 |[Week 1: Jan 27](#january-27-week-1)|Course Introduction; Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|||
 |[Week 2: Feb 3](#february-3-week-2)|Development Environment; Programming Fundamentals|***In-Person***|Exercise 0|Chester|
-|[Week 3: Feb 10](#february-19-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1||
+|[Week 3: Feb 10](#february-10-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1||
 |[Week 4: Feb 17](#february-17-week-4)|Modular Programming and Generalizability|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1 Code Review||
 |[Week 5: Feb 24](#february-24-week-5)|Accessing and Wrangling Data|[Zoom](https://umd.zoom.us/j/97370863271)|||
 |[Week 6: Mar 3](#march-3-week-6)|Data Visualization|***In-Person***|Exercise 2||
@@ -330,7 +330,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Reading seminar
   - Peng, Q., Knaap, G., & Finio, N. (2023). Do Multifamily unit Rents Increase in Response to Light Rail in the Pre-service Period? _International Regional Science Review_, 01600176231162563. <https://doi.org/10.1177/01600176231162563>
 
-### March 17 — NO CLASS
+### March 17 (Spring Break)
 
 - Spring Break
 
