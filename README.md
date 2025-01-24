@@ -287,6 +287,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Pandas
   - Tabular joins
   - Loading and exporting files
+- Code Review Workshop (How-To)
 - Reading seminar
   - Wilson, G., Aruliah, D. A., Brown, C. T., Hong, N. P. C., Davis, M., Guy, R. T., Haddock, S. H. D., Huff, K. D., Mitchell, I. M., Plumbley, M. D., Waugh, B., White, E. P., & Wilson, P. (2014). Best Practices for Scientific Computing. _PLOS Biology_, _12_(1), e1001745. <https://doi.org/10.1371/journal.pbio.1001745>
 
@@ -295,6 +296,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 - Modular programming and generalizability
   - Writing and importing modules
   - Repository structure
+- Code Review Workshop
 - Reading seminar
   - Chapter 3: “Smart Cities as Emerging Markets” (pp. 57–94)  
         Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
@@ -329,6 +331,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Geopandas
   - Overlay and proximity analyses
   - Spatial joins
+- Code Review Workshop
 - Reading seminar
   - Peng, Q., Knaap, G., & Finio, N. (2023). Do Multifamily unit Rents Increase in Response to Light Rail in the Pre-service Period? _International Regional Science Review_, 01600176231162563. <https://doi.org/10.1177/01600176231162563>
 
@@ -352,6 +355,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Map design fundamentals
   - Basemaps
   - Mapping in Python
+- Code Review Workshop
 - Reading seminar
   - \[Chapter 7: “Smart Cities as the New Uneven Development” (pp. 181–200)\]  
         Clark, J. (2020). _Uneven Innovation_… ([UMD Link](https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883))
@@ -373,6 +377,7 @@ This course is inspired by numerous other courses and colleagues, especially:
 ### April 28 (Week 13)
 
 - \[lab space held for a student-requested topic\]
+- Code Review Workshop
 - Reading seminar
   - Kandt, J., & Batty, M. (2021). Smart cities, big data and urban policy: Towards urban analytics for the long run. _Cities_, _109_, 102992. <https://doi.org/10.1016/j.cities.2020.102992>
 - Final project consultations
