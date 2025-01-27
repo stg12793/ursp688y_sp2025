@@ -18,7 +18,7 @@ Students should submit all assignments as pull requests to this repository. All 
 |Week|Topic|Format|Due|Discussion Leader
 |:--|:--|:--|:--|:--|
 |[Week 1: Jan 27](#january-27-week-1)|Course Introduction; Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|||
-|[Week 2: Feb 3](#february-3-week-2)|Development Environment; Programming Fundamentals|***In-Person***|Exercise 0|Chester|
+|[Week 2: Feb 3](#february-3-week-2)|Development Environment; Programming Fundamentals|***In-Person***|Exercise 0|Chester |
 |[Week 3: Feb 10](#february-10-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1||
 |[Week 4: Feb 17](#february-17-week-4)|Modular Programming and Generalizability|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1 Code Review||
 |[Week 5: Feb 24](#february-24-week-5)|Accessing and Wrangling Data|[Zoom](https://umd.zoom.us/j/97370863271)|||
@@ -157,9 +157,12 @@ Coders often feel like professional Googlers. Neary endless code snippets are av
 Here are my suggestions:
 
 - Be a compulsive Googler. Ask ChatGTP what’s wrong with your code. Ask your friends, too. Use these resources to learn and make your coding better, not to avoid learning. If I suspect you have merely copied and pasted code for an exercise, I will call you out on it. If I can’t tell, good on the AI, but bad for your learning as a coder. Why bother taking this class?
-- If you copy and paste a major block of code, cite the source in a comment. I often paste [StackOverflow](https://stackoverflow.com/) URLs into docstrings for basic functions that I’ve borrowed or adapted from posts, both to show others where I got them, and remind myself in case I want to go back to the source later. This is both practical and ethical.
 - If you’re in a Googling death spiral and just can’t find an answer, first ask a classmate—there’s a good chance you’ve confronted the same issue—then ask me.
 - You are encouraged to work on exercises with a classmate. You’re even welcome to submit the same code. Just add a comment about who you worked with to the top of your submission.
+
+If you copy and paste a non-trivial amount of code from any source, including a generative AI, you are expected to cite your source. I often paste [StackOverflow](https://stackoverflow.com/) URLs into docstrings for basic functions that I’ve borrowed or adapted from posts, both to show others where I got them, and remind myself in case I want to go back to the source later. If ChatGPT helps you write a code block, make a comment about the tool name query that generated the code. This approach is both practical and ethical.
+
+Writing that is intended to reflect your voice as an author, including any aspect of an assignment requiring narrative prose, may not be substantively authored by a generative AI. Doing so would require that you declare the AI tool as the author, which would preclude you taking credit for the product. AI tools may be used for planning and editing. This includes refining arguments or research questions, outlining, spelling and grammar assistance, and translation.
 
 ## Grading
 
