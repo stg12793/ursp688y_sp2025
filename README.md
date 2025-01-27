@@ -253,6 +253,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Variables
   - Syntax vs. style
   - Basic data types
+  - Conditions and loops
   - Errors and debugging
 - Version control and code sharing
   - Submitting exercises with GitHub
@@ -265,9 +266,7 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Conda
   - Jupyter Lab
 - More programming fundamentals
-  - Logic
-    - Conditions
-    - Loops
+  - Logical flow
   - Functions
   - Building and troubleshooting
     - Documentation
