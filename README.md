@@ -22,8 +22,8 @@ Students should submit all assignments as pull requests to this repository. All 
 |[Week 3: Feb 10](#february-10-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1||
 |[Week 4: Feb 17](#february-17-week-4)|Modular Programming and Generalizability|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1 Code Review||
 |[Week 5: Feb 24](#february-24-week-5)|Accessing and Wrangling Data|[Zoom](https://umd.zoom.us/j/97370863271)|||
-|[Week 6: Mar 3](#march-3-week-6)|Data Visualization|***In-Person***|Exercise 2||
-|[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 2 Code Review||
+|[Week 6: Mar 3](#march-3-week-6)|Data Visualization|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 2||
+|[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|***In-Person***|Exercise 2 Code Review||
 |[Spring Break](#march-17-spring-break)| 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 |***NO CLASS***|||
 |[Week 8: Mar 24](#march-24-week-8)|Final Project Proposal Workshop|[Zoom](https://umd.zoom.us/j/97370863271)|Final Project Proposal||
 |[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3||
