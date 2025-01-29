@@ -26,7 +26,7 @@ Students should submit all assignments as pull requests to this repository. All 
 |[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 2 Code Review||
 |[Spring Break](#march-17-spring-break)| 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 |***NO CLASS***|||
 |[Week 8: Mar 24](#march-24-week-8)|Final Project Proposal Workshop|[Zoom](https://umd.zoom.us/j/97370863271)|Final Project Proposal||
-|[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3||
+|[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3|Alex McRoberts|
 |[Week 10: Apr 7](#april-7-week-10)|Spatial Visualization|***In-Person***|Exercise 3 Code Review||
 |[Week 11: Apr 14](#april-14-week-11)|Dashboards|[Zoom](https://umd.zoom.us/j/97370863271)|||
 |[Week 12: Apr 21](#april-21-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4||
