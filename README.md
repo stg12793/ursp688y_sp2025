@@ -18,17 +18,17 @@ Students should submit all assignments as pull requests to this repository. All 
 |Week|Topic|Format|Due|Discussion Leader
 |:--|:--|:--|:--|:--|
 |[Week 1: Jan 27](#january-27-week-1)|Course Introduction; Programming Fundamentals|[Zoom](https://umd.zoom.us/j/97370863271)|||
-|[Week 2: Feb 3](#february-3-week-2)|Development Environment; Programming Fundamentals|***In-Person***|Exercise 0|Chester |
-|[Week 3: Feb 10](#february-10-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1||
-|[Week 4: Feb 17](#february-17-week-4)|Modular Programming and Generalizability|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1 Code Review||
-|[Week 5: Feb 24](#february-24-week-5)|Accessing and Wrangling Data|[Zoom](https://umd.zoom.us/j/97370863271)|||
-|[Week 6: Mar 3](#march-3-week-6)|Data Visualization|***In-Person***|Exercise 2||
-|[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 2 Code Review||
-|[Spring Break](#march-17-spring-break)| 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 |***NO CLASS***|||
+|[Week 2: Feb 3](#february-3-week-2)|Development Environment; Programming Fundamentals|***In-Person***|Exercise 0|Chester|
+|[Week 3: Feb 10](#february-10-week-3)|Tabular Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1||Michael|
+|[Week 4: Feb 17](#february-17-week-4)|Modular Programming and Generalizability|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 1 Code Review|Pablo|
+|[Week 5: Feb 24](#february-24-week-5)|Accessing and Wrangling Data|[Zoom](https://umd.zoom.us/j/97370863271)||Cole|
+|[Week 6: Mar 3](#march-3-week-6)|Data Visualization|***In-Person***|Exercise 2|Sam|
+|[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 2 Code Review|David|
+|[Spring Break](#march-17-spring-break)| 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 |***NO CLASS***|||
 |[Week 8: Mar 24](#march-24-week-8)|Final Project Proposal Workshop|[Zoom](https://umd.zoom.us/j/97370863271)|Final Project Proposal||
-|[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3|| 
-|[Week 10: Apr 7](#april-7-week-10)|Spatial Visualization|***In-Person***|Exercise 3 Code Review|Nancy Bowne|
-|[Week 11: Apr 14](#april-14-week-11)|Dashboards|[Zoom](https://umd.zoom.us/j/97370863271)|||
+|[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3|Alex| 
+|[Week 10: Apr 7](#april-7-week-10)|Spatial Visualization|***In-Person***|Exercise 3 Code Review|Nancy|
+|[Week 11: Apr 14](#april-14-week-11)|Dashboards|[Zoom](https://umd.zoom.us/j/97370863271)||Huan|
 |[Week 12: Apr 21](#april-21-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4||
 |[Week 13: Apr 28](#april-28-week-13)|TBD|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4 Code Review||
 |[Week 14: May 5](#may-5-week-14)|Final Project Presentations|***In-Person***|||
