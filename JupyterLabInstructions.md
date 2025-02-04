@@ -18,7 +18,7 @@ Windows:
 - Right-click on the repository you want to access in the left sidebar in GitHub Desktop
 - Click [Copy Repo Path]
 - Open the 'Anaconda Prompt' program
-- Type `cd`, add a space, then paste your copied path ([ctrl] + [v] and press [Enter]
+- Type `cd`, add a space, then paste your copied path ([ctrl] + [v]) and press [Enter]
 
 #### Part 2: Activate your Conda environment
 - Type `conda activate 688y` and press [Enter]
