@@ -14,7 +14,7 @@ These instructions assume that you have already made a personal GitHub account a
 
 #### Part 2: Fetch, edit, commit, and push your fork
 4. GitHub Desktop: In your cloned fork, fetch from the origin (`Fetch origin`) to ensure your version is up-to-date
-5. Jupyter Lab: Add code, data, directories, etc.
+5. JupyterLab: Write code, add data, etc. (***see JupyterLabInstructions.md for more details***)
 6. GitHub Desktop: Commit each major change
 7. GitHub Desktop: Periodically push to the origin (`Push origin`)
 8. Rinse and repeat...
