@@ -31,5 +31,3 @@ Windows:
 Leave the command terminal open in the background while you do your work. You can minimize it to keep it out of the way.
 
 If you need to restart JupyterLab, the easiest way is to close the browser window and terminal, then start a new one. You can avoid fully closing the terminal by pressing [control] + [c], which will stop the JupyterLab server and shut down all Python kernels.
-
-#### 🙌 Congrats!
