@@ -1,8 +1,8 @@
-Here are all the detailed steps for getting your exercise from GitHub, then committing it back to GitHub and making a pull request to submit.
+Here are detailed steps for retrieving content from GitHub and making a pull request to submit new content (such as an exercise).
 
-It looks complicated, and there are a few places where the details matter. But once you do it several times it will feel natural and make a lot more sense.
+It looks complicated, and there are a few places where the details matter. But once you do it several times it will feel more natural.
 
-These instructions assume that you have already made a personal GitHub account and installed GitHub Desktop on your computer
+These instructions assume that you have already made a GitHub account and installed GitHub Desktop on your computer.
 
 #### Part 0: Fork the course repo at GitHub.com (only the first time)
 0. Fork the [`ncsg/ursp688y_sp2025`](https://github.com/ncsg/ursp688y_sp2025) repo to your own account at GitHub.com.
@@ -14,7 +14,7 @@ These instructions assume that you have already made a personal GitHub account a
 
 #### Part 2: Fetch, edit, commit, and push your fork
 4. GitHub Desktop: In your cloned fork, fetch from the origin (`Fetch origin`) to ensure your version is up-to-date
-5. Jupyter Lab: Add code, data, directories, etc.
+5. JupyterLab: Write code, add data, etc. (***see JupyterLabInstructions.md for more details***)
 6. GitHub Desktop: Commit each major change
 7. GitHub Desktop: Periodically push to the origin (`Push origin`)
 8. Rinse and repeat...
