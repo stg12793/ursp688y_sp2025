@@ -321,7 +321,8 @@ This course is inspired by numerous other courses and colleagues, especially:
   - Seaborn
   - Export to Illustrator
 - Reading seminar
-  - \[Introduction: The Pointillistic City\] O'Brien, Daniel T. (2025). _The Pointillistic City_ ([Link]([https://ebookcentral.proquest.com/lib/umdcp/reader.action?docID=5763883](https://direct.mit.edu/books/oa-monograph/5893/chapter/5292757/Introduction-The-Pointillistic-City)))
+  - Introduction: "The Pointillistic City"
+        O'Brien, D. T. (2025). _The Pointillistic City_ ([Link](https://direct.mit.edu/books/oa-monograph/5893/chapter/5292757/Introduction-The-Pointillistic-City))
 
 ### March 10 (Week 7)
 
