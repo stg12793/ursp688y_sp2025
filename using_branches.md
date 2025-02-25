@@ -18,7 +18,7 @@ Branches allow you to organize work in a contained space. For our purposes, thei
 - Sync your branch before making a pull request.
 
 ### Detailed Steps for Doing Your Exercise on a Branch
-1. Go to your fork of the course respository on the GitHub website (e.g., https://github.com/[your username]/ursp688y_sp2025).
+1. Go to your fork of the course respository on the GitHub website (e.g., https://github.com/[your_username]/ursp688y_sp2025).
 2. In the upper-left, click where it says "1 Branch" or "[n] Branches" to open branches page.
 3. Click the green "New branch" button in the upper left.
 4. Write a name for your new branch (e.g., "exercise-2").
