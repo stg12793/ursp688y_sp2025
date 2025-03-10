@@ -126,7 +126,7 @@ Convincing proposals are crucial in both research and practice. Imagine you are 
 
 #### Project Components
 
-##### Proposal Pitch (In-Class March 24th; 1 slide)
+##### 0. Proposal Pitch (In-Class March 24th; 1 slide)
 
 Make a single slide to pitch your project idea to your classmates. Consider including:
 
@@ -134,7 +134,7 @@ Make a single slide to pitch your project idea to your classmates. Consider incl
 3. Potential data sources and key steps in analysis (high-level pseudocode)
 4. Major limitations
 
-##### Short Proposal (Due March 26th; 500–1,000 words)
+##### 1. Short Proposal (Due March 26th; 500–1,000 words)
 
 Write a short proposal with the following sections outlining your proposed project:
 
@@ -147,7 +147,7 @@ Write a short proposal with the following sections outlining your proposed proje
 
 Please submit on ELMS as a PDF.
 
-##### Presentation (In-Class May 5th)
+##### 2. Presentation (In-Class May 5th)
 
 Please focus your presentation on these areas:
 
@@ -158,7 +158,7 @@ Please focus your presentation on these areas:
 
 In addition to your in-class presentation, please submit slides on ELMS as a PDF.
 
-##### Final Product (Due May 12th; see above for recommended lengths and formats)
+##### 3. Final Product (Due May 12th; see above for recommended lengths and formats)
 
 Please submit on ELMS as a PDF with links to online content, as appropriate.
 
