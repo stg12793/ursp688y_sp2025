@@ -124,6 +124,44 @@ You will write a paper with sections similar to the narrative described above, b
 
 Convincing proposals are crucial in both research and practice. Imagine you are applying for a grant to fund a research project or responding to an RFP issued by a public agency. In both cases, you need to convince the reader that your approach is actionable. It should also be intelligible for a non-expert audience. Writing with this combination precision and clarity is a valuable skill to hone.
 
+## Project Components
+
+### Proposal Pitch (In-Class March 24th; 1 slide)
+
+Make a single slide to pitch your project idea to your classmates. Consider including:
+
+1. Working title that explains what the project is trying to accomplish or the question it is addressing (e.g., "Are rents higher in neighborhoods with more trees?")
+3. Potential data sources and key steps in analysis (high-level pseudocode)
+4. Major limitations
+
+### Short Proposal (Due March 26th; 500–1,000 words)
+
+Write a short proposal with the following sections outlining your proposed project:
+
+1. Introduction: What is the issue you are trying to address? Why is addressing it important? How will data science/smart cities tools help you address it?
+2. Brief Background (not a full literature review): Situate the problem in the context of other work, either in practice or research. Is the place you're working in already doing something related?
+3. Objectives: What specific question will your analysis answer (narrower than the issue described in the introduction)? Are you testing a hypothesis, or looking to develop theory in a spaces that lacks it?
+4. Methods: What data will you need? What methods will you use to analyze these data?
+5. Limitations and Ethics: How will your data and methods limit your conclusions? What ethical challenges may be posed by your analysis? What are the theoretical strengths and weaknesses of using your approach?
+6. References (not included in word count): Bibliographic list of any cited works, datasets, or other materials.
+
+Please submit on ELMS as a PDF.
+
+### Presentation (In-Class May 5th)
+
+Please focus your presentation on these areas:
+
+1. Problem statement and central question
+2. Data and methods used to address
+3. What do the conclusions mean? (not just the results, but their _implications_)
+4. What challenges and limitations are posed by using your approach? How did you address any of these challenges?
+
+In addition to your in-class presentation, please submit slides on ELMS as a PDF.
+
+### Final Product (Due May 12th; see above for recommended lengths and formats)
+
+Please submit on ELMS as a PDF with links to online content, as appropriate.
+
 ### Participation (20% of grade)
 
 This is a hands-on, discussion-oriented course. Please come to class on time having read assigned materials and ready to engage with your fellow students. Lack of engagement in and preparedness for discussion, or substantial absence, will impact your participation grade.
