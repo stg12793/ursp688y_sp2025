@@ -114,19 +114,19 @@ The project will ask you to address a request from an imaginary planning agency 
 
 Projects may take two forms: (1) a functioning analysis with input data and a codebase that yield reproducible results, or (2) a proposal for an analysis that could reasonably be executed.
 
-### Functional Analysis
+#### Functional Analysis
 
 You will develop a well-documented repository of data and code, along with a short accompanying narrative describing the project’s motivation, central question, approach, results, and discussion of their meaning. The narrative may be either a traditional paper or a customized webpage/site/app that combines text and graphics. Narratives for this option are expected to be 1,000–1,500 words (2–3 pages, single spaced).
 
-### Proposal
+#### Proposal
 
 You will write a paper with sections similar to the narrative described above, but with considerably more detail about the proposed approach. In lieu of conducting the analysis, you must convincingly portray how it will be conducted (when it is funded, of course), including proposed data sources and tools. The proposal should also include expanded discussion of smart cities theory to support and critique how your approach relates to equity, both in the substantive question it addresses and opportunities or issues it raises methodologically. This will likely draw on literature outside of what is assigned for the course. Narratives for this option are expected to be 4,000–6,500 words (8–12 pages, single spaced).
 
 Convincing proposals are crucial in both research and practice. Imagine you are applying for a grant to fund a research project or responding to an RFP issued by a public agency. In both cases, you need to convince the reader that your approach is actionable. It should also be intelligible for a non-expert audience. Writing with this combination precision and clarity is a valuable skill to hone.
 
-## Project Components
+#### Project Components
 
-### Proposal Pitch (In-Class March 24th; 1 slide)
+##### Proposal Pitch (In-Class March 24th; 1 slide)
 
 Make a single slide to pitch your project idea to your classmates. Consider including:
 
@@ -134,7 +134,7 @@ Make a single slide to pitch your project idea to your classmates. Consider incl
 3. Potential data sources and key steps in analysis (high-level pseudocode)
 4. Major limitations
 
-### Short Proposal (Due March 26th; 500–1,000 words)
+##### Short Proposal (Due March 26th; 500–1,000 words)
 
 Write a short proposal with the following sections outlining your proposed project:
 
@@ -147,7 +147,7 @@ Write a short proposal with the following sections outlining your proposed proje
 
 Please submit on ELMS as a PDF.
 
-### Presentation (In-Class May 5th)
+##### Presentation (In-Class May 5th)
 
 Please focus your presentation on these areas:
 
@@ -158,7 +158,7 @@ Please focus your presentation on these areas:
 
 In addition to your in-class presentation, please submit slides on ELMS as a PDF.
 
-### Final Product (Due May 12th; see above for recommended lengths and formats)
+##### Final Product (Due May 12th; see above for recommended lengths and formats)
 
 Please submit on ELMS as a PDF with links to online content, as appropriate.
 
