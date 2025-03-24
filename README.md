@@ -114,15 +114,53 @@ The project will ask you to address a request from an imaginary planning agency 
 
 Projects may take two forms: (1) a functioning analysis with input data and a codebase that yield reproducible results, or (2) a proposal for an analysis that could reasonably be executed.
 
-### Functional Analysis
+#### Functional Analysis
 
 You will develop a well-documented repository of data and code, along with a short accompanying narrative describing the project’s motivation, central question, approach, results, and discussion of their meaning. The narrative may be either a traditional paper or a customized webpage/site/app that combines text and graphics. Narratives for this option are expected to be 1,000–1,500 words (2–3 pages, single spaced).
 
-### Proposal
+#### Proposal
 
 You will write a paper with sections similar to the narrative described above, but with considerably more detail about the proposed approach. In lieu of conducting the analysis, you must convincingly portray how it will be conducted (when it is funded, of course), including proposed data sources and tools. The proposal should also include expanded discussion of smart cities theory to support and critique how your approach relates to equity, both in the substantive question it addresses and opportunities or issues it raises methodologically. This will likely draw on literature outside of what is assigned for the course. Narratives for this option are expected to be 4,000–6,500 words (8–12 pages, single spaced).
 
 Convincing proposals are crucial in both research and practice. Imagine you are applying for a grant to fund a research project or responding to an RFP issued by a public agency. In both cases, you need to convince the reader that your approach is actionable. It should also be intelligible for a non-expert audience. Writing with this combination precision and clarity is a valuable skill to hone.
+
+#### Project Components
+
+##### 0. Proposal Pitch (In-Class March 24th; 1 slide)
+
+Make a single slide to pitch your project idea to your classmates. Consider including:
+
+1. Working title that explains what the project is trying to accomplish or the question it is addressing (e.g., "Are rents higher in neighborhoods with more trees?")
+3. Potential data sources and key steps in analysis (high-level pseudocode)
+4. Major limitations
+
+##### 1. Short Proposal (Due March 26th; 500–1,000 words)
+
+Write a short proposal with the following sections outlining your proposed project:
+
+1. Introduction: What is the issue you are trying to address? Why is addressing it important? How will data science/smart cities tools help you address it?
+2. Brief Background (not a full literature review): Situate the problem in the context of other work, either in practice or research. Is the place you're working in already doing something related?
+3. Objectives: What specific question will your analysis answer (narrower than the issue described in the introduction)? Are you testing a hypothesis, or looking to develop theory in a spaces that lacks it?
+4. Methods: What data will you need? What methods will you use to analyze these data?
+5. Limitations and Ethics: How will your data and methods limit your conclusions? What ethical challenges may be posed by your analysis? What are the theoretical strengths and weaknesses of using your approach?
+6. References (not included in word count): Bibliographic list of any cited works, datasets, or other materials.
+
+Please submit on ELMS as a PDF.
+
+##### 2. Presentation (In-Class May 5th)
+
+Please focus your presentation on these areas:
+
+1. Problem statement and central question
+2. Data and methods used to address
+3. What do the conclusions mean? (not just the results, but their _implications_)
+4. What challenges and limitations are posed by using your approach? How did you address any of these challenges?
+
+In addition to your in-class presentation, please submit slides on ELMS as a PDF.
+
+##### 3. Final Product (Due May 12th; see above for recommended lengths and formats)
+
+Please submit on ELMS as a PDF with links to online content, as appropriate.
 
 ### Participation (20% of grade)
 

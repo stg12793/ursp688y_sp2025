@@ -1,0 +1,7 @@
+
+# Any csv file
+*.csv
+
+# Any parquet file
+*.parquet
+*.geoparquet
