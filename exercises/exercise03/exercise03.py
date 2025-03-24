@@ -2,14 +2,14 @@ import os
 import pandas as pd
 import utils
 
-def prep_warrents_for_geocoding(df):
+def prep_warrants_for_geocoding(df):
 
     # Operate on a copy of the dataframe
     # (this ensures that changes to the df made within this function don't
     # percolate into the df object in the parent namespace)
     df = df.copy()
     
-    print(f'{len(df)} warrents input')
+    print(f'{len(df)} warrants input')
     
     # Reduce to unique addresses to economize geocoding
     df = df.drop_duplicates(['TenantAddress','TenantCity','TenantState','TenantZipCode'])
