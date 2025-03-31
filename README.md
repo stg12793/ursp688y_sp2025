@@ -26,11 +26,11 @@ Students should submit all assignments as pull requests to this repository. All 
 |[Week 7: Mar 10](#march-10-week-7)|Geospatial Data|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 2 Code Review|David|
 |[Spring Break](#march-17-spring-break)| 🏄 🌴 🏄 🌴 🏄 🌴 🏄 🌴 |***NO CLASS***|||
 |[Week 8: Mar 24](#march-24-week-8)|Final Project Proposal Workshop|[Zoom](https://umd.zoom.us/j/97370863271)|Final Project Proposal||
-|[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3|Alex| 
-|[Week 10: Apr 7](#april-7-week-10)|Spatial Visualization|***In-Person***|Exercise 3 Code Review|Nancy|
-|[Week 11: Apr 14](#april-14-week-11)|Dashboards|[Zoom](https://umd.zoom.us/j/97370863271)||Huan|
-|[Week 12: Apr 21](#april-21-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4||
-|[Week 13: Apr 28](#april-28-week-13)|TBD|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4 Code Review||
+|[Week 9: Mar 31](#march-31-week-9)|Network Analysis|[Zoom](https://umd.zoom.us/j/97370863271)||Alex| 
+|[Week 10: Apr 7](#april-7-week-10)|Spatial Visualization|***In-Person***|Exercise 3|Nancy|
+|[Week 11: Apr 14](#april-14-week-11)|Dashboards|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 3 Code Review|Huan|
+|[Week 12: Apr 21](#april-21-week-12)|Machine Learning|[Zoom](https://umd.zoom.us/j/97370863271)|||
+|[Week 13: Apr 28](#april-28-week-13)|Final Project Code Review Workshop|[Zoom](https://umd.zoom.us/j/97370863271)|Exercise 4||
 |[Week 14: May 5](#may-5-week-14)|Final Project Presentations|***In-Person***|||
 |[Week 15: May 12](#may-12-week-15)|Final Project Due|***NO CLASS***|Final Project Materials||
 
