@@ -164,3 +164,10 @@ cython_debug/
 
 # Configs
 **/configs.yaml
+exercises/exercise03/acs2023_5yr_B18101_14000US24031703902.geojson
+exercises/exercise03/acs2023_5yr_B18101_14000US24031703902.zip
+exercises/exercise03/acs2023_5yr_B18101_14000US24033805000.geojson
+exercises/exercise03/acs2023_5yr_B18101_14000US24033805000.zip
+exercises/exercise03/acs_moco/metadata.json
+exercises/exercise03/acs_pg_county/metadata.json
+exercises/exercise03/bivariate_choropleth_map.html
