@@ -1,35 +1,9 @@
-import json
 import requests
 import geopandas as gpd
 import pandas as pd
 import numpy as np
 
-
 UTM18 = 26918
-
-# def save_json(data, file_name, timestamp=False):
-#     """Save data as json file
-#     data: json-compatable data structure (nested dicts and lists)
-#     file_name: string for file name; DO NOT include file extension (e.g., ".json")
-#     """
-#     if timestamp:
-#         file_name = f'{file_name}_{timestamp}.json'
-#     else:
-#         file_name = f'{file_name}.json'
-#     with open(file_name, 'w') as f:
-#         json.dump(data, f, indent=4)
-
-# def get_and_save_cabi_data():
-#     """Get current data from the CABI API and save as a timestamped JSON
-#     """
-#     # Making a "GET" request
-#     # response = requests.get('https://gbfs.lyft.com/gbfs/1.1/dca-cabi/en/free_bike_status.json')
-
-#     bike_status = requests.get('https://gbfs.lyft.com/gbfs/2.3/dca-cabi/en/free_bike_status.json').json()
-    
-#     # Get JSON content
-#     data = response.json()
-#     return data
 
 def load_tracts():
     """Load tracts from geojson and return as geodataframe
@@ -96,20 +70,6 @@ def expand_stations_into_bikes(stations_gdf):
                 }) 
     return gpd.GeoDataFrame(pd.DataFrame(station_bikes), geometry='geometry', crs=4326)
 
-# def attach_tracts_to_bikes(bikes_gdf, tracts_gdf):
-#     """Spatially join tract IDs to bikes
-#     """
-#     bikes_gdf = gpd.sjoin(bikes_gdf, tracts_gdf[['tract_id','geometry']])
-#     bikes_gdf = bikes_gdf.drop(columns='index_right')
-#     return bikes_gdf
-
-# def attach_nbhds_to_bikes(bikes_gdf, nbhds_gdf):
-#     """Spatially join tract IDs to bikes
-#     """
-#     bikes_gdf = gpd.sjoin_nearest(bikes_gdf.to_crs(UTM18), nbhds_gdf[['nbhd','geometry']].to_crs(UTM18))
-#     bikes_gdf = bikes_gdf.drop(columns='index_right')
-#     return bikes_gdf.to_crs(4326)
-
 def attach_points_to_points(gdf_a, gdf_b):
     """Spatially join points in one gdf to the closest point in another gdf
     """
@@ -118,7 +78,16 @@ def attach_points_to_points(gdf_a, gdf_b):
     return gdf_a.to_crs(4326)
 
 def count_bikes_per_nbhd(bikes_gdf):
-    return pd.DataFrame(bikes_gdf.groupby('nbhd').size().rename('bikes'))
+    bikes_gdf = bikes_gdf.copy()
+    bikes_gdf['eea'] = (bikes_gdf['eea_idx'] > 0).astype(int)
+    bikes_per_nbhd = bikes_gdf.groupby('nbhd').agg({
+        'vehicle_type_id':'count',
+        'eea':'max',
+        }).rename(columns={
+        'vehicle_type_id':'bikes'
+        })
+    bikes_per_nbhd = bikes_per_nbhd.sort_values('bikes', ascending=False)
+    return bikes_per_nbhd
 
 # Attach counts to nbhd points
 def attach_counts_to_nbhd_points(bikes_per_nbhd_df, nbhds_gdf):
@@ -128,16 +97,6 @@ def proportional_circles_radii(values, multiplier=1):
     """Calculate radii of proportional circles from a column of values given a multiplier
     """
     return np.sqrt(values / 3.14) * multiplier
-
-# def replace_polygons_with_proportional_circles(polgyon_gdf, value_col, multiplier=1, calc_crs=UTM18):
-#     initial_crs = polgyon_gdf.crs
-#     point_gdf = polgyon_gdf.copy()
-#     point_gdf = point_gdf.to_crs(calc_crs)
-#     point_gdf['geometry'] = point_gdf.centroid
-#     point_gdf['geometry'] = point_gdf.buffer(
-#         proportional_circles_radii(point_gdf[value_col], multiplier))
-#     point_gdf = point_gdf.to_crs(initial_crs)
-#     return point_gdf
 
 def polygons_to_points(polgyon_gdf, calc_crs=UTM18):
     initial_crs = polgyon_gdf.crs

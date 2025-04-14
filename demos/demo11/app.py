@@ -1,13 +1,11 @@
 import demo11
 import pandas as pd
 import geopandas as gpd
-
 import plotly.express as px
 from shiny import reactive
 from shiny.express import ui, input, render
 from shinywidgets import render_plotly, render_widget
 from ipyleaflet import GeoJSON, Map, CircleMarker, basemaps
-
 
 ##############
 # Prepare data
@@ -31,7 +29,7 @@ tracts_gdf = tracts_gdf.merge(eea_df, on='tract_id', how='left')
 nbhds_gdf = demo11.add_tract_data_to_nbhds(nbhds_gdf, tracts_gdf)
 
 # Attach neighborhoods to bikes
-bikes_gdf = demo11.attach_points_to_points(bikes_gdf, nbhds_gdf[['nbhd','geometry']])
+bikes_gdf = demo11.attach_points_to_points(bikes_gdf, nbhds_gdf)
 
 
 ######################################
@@ -59,6 +57,9 @@ bikes_gdf[docking_status_field] = bikes_gdf[docking_status_field].map(docking_st
 # Calculate midpoint for mapping
 mid_lon, mid_lat = demo11.get_gdf_midpoint(nbhds_gdf)
 
+eea_color = 'blue'
+other_color = 'red'
+
 
 ###########
 # Define ui
@@ -85,58 +86,106 @@ with ui.sidebar():
         # width=None,
     )
 
-@render_plotly
-def bar_chart():
-    # Filter based on inputs
-    filtered_bikes_df = demo11.filter_bikes(
-        bikes_gdf, 
-        {
-            bike_type_field: input.bike_type(),
-            docking_status_field: input.docking_status(),
-        }
-    )
-    # Attach bikes to neighborhoods
-    bikes_per_nbhd_df = demo11.count_bikes_per_nbhd(filtered_bikes_df)
+with ui.layout_columns():
 
-    fig = px.bar(bikes_per_nbhd_df.reset_index(), x="nbhd", y="bikes")
-    return fig
+    with ui.card():
+
+        @render_plotly
+        def bar_chart_ten_most():
+            # Filter based on inputs
+            filtered_bikes_df = demo11.filter_bikes(
+                bikes_gdf, 
+                {
+                    bike_type_field: input.bike_type(),
+                    docking_status_field: input.docking_status(),
+                }
+            )
+            # Attach bikes to neighborhoods
+            bikes_per_nbhd_df = demo11.count_bikes_per_nbhd(filtered_bikes_df).reset_index()
+
+            # Plot 10 highest
+            fig = px.bar(
+                bikes_per_nbhd_df.head(20), 
+                x='nbhd', 
+                y='bikes', 
+                color='eea',
+                color_continuous_scale=[other_color, eea_color],
+            )
+            fig.update_layout(coloraxis_showscale=False)
+            fig.update_xaxes(tickangle=-90)
+            return fig
+
+
+    with ui.card():
+
+        @render_plotly
+        def bar_chart_ten_least():
+            # Filter based on inputs
+            filtered_bikes_df = demo11.filter_bikes(
+                bikes_gdf, 
+                {
+                    bike_type_field: input.bike_type(),
+                    docking_status_field: input.docking_status(),
+                }
+            )
+            # Attach bikes to neighborhoods
+            bikes_per_nbhd_df = demo11.count_bikes_per_nbhd(filtered_bikes_df).reset_index()
+
+            # Plot 10 lowest        
+            fig = px.bar(
+                bikes_per_nbhd_df.tail(20), 
+                x='nbhd', 
+                y='bikes', 
+                color='eea',
+                color_continuous_scale=[other_color, eea_color],
+            )
+            fig.update_layout(coloraxis_showscale=False)
+            fig.update_xaxes(tickangle=-90)
+            return fig
     
 
-@render_widget  
-def map():
+with ui.layout_columns():
 
-    # Filter based on inputs
-    filtered_bikes_df = demo11.filter_bikes(
-        bikes_gdf, 
-        {
-            bike_type_field: input.bike_type(),
-            docking_status_field: input.docking_status(),
-        }
-    )
-    
-    # Attach bikes to neighborhoods
-    bikes_per_nbhd_df = demo11.count_bikes_per_nbhd(filtered_bikes_df)
-    nbhds_with_bike_counts_gdf = demo11.attach_counts_to_nbhd_points(bikes_per_nbhd_df, nbhds_gdf) 
-
-    # Build map
-    m = Map(
-        basemap=basemaps.CartoDB.Positron,
-        center=(mid_lat, mid_lon), 
-        zoom=12,
-        scroll_wheel_zoom=True,
-    )  
-
-    multiplier = 0.2
-    for nbhd in nbhds_with_bike_counts_gdf.itertuples():
-        circle_marker = CircleMarker()
-        lat = nbhd.geometry.y
-        lon = nbhd.geometry.x
-        circle_marker.location = (lat, lon)
-        radius = demo11.int_at_least_one(nbhd.bikes * multiplier)
-        circle_marker.radius = radius
-        circle_marker.color = "red"
-        circle_marker.fill_color = "#ffffff00"
-        circle_marker.weight=1
-        m.add(circle_marker)
+    with ui.card():
         
-    return m
+        @render_widget  
+        def map():
+        
+            # Filter based on inputs
+            filtered_bikes_df = demo11.filter_bikes(
+                bikes_gdf, 
+                {
+                    bike_type_field: input.bike_type(),
+                    docking_status_field: input.docking_status(),
+                }
+            )
+            
+            # Attach bikes to neighborhoods
+            bikes_per_nbhd_df = demo11.count_bikes_per_nbhd(filtered_bikes_df)
+            nbhds_with_bike_counts_gdf = demo11.attach_counts_to_nbhd_points(bikes_per_nbhd_df, nbhds_gdf) 
+        
+            # Build map
+            m = Map(
+                basemap=basemaps.CartoDB.Positron,
+                center=(mid_lat, mid_lon), 
+                zoom=12,
+                scroll_wheel_zoom=True,
+            )  
+        
+            multiplier = 0.2
+            for nbhd in nbhds_with_bike_counts_gdf.itertuples():
+                circle_marker = CircleMarker()
+                lat = nbhd.geometry.y
+                lon = nbhd.geometry.x
+                circle_marker.location = (lat, lon)
+                radius = demo11.int_at_least_one(nbhd.bikes * multiplier)
+                circle_marker.radius = radius
+                if nbhd.eea == 1:
+                    circle_marker.color = eea_color
+                else:
+                    circle_marker.color = other_color
+                circle_marker.fill_color = "#ffffff00"
+                circle_marker.weight=1
+                m.add(circle_marker)
+                
+            return m
