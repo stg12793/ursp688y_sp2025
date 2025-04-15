@@ -72,8 +72,6 @@ with ui.sidebar():
         label=ui.HTML('<b>Bike Type</b>'),
         choices=list(bike_type_codes.values()),
         selected=list(bike_type_codes.values()),
-        # inline=False,
-        # width=None,
     )
 
     ui.input_checkbox_group(
@@ -81,9 +79,6 @@ with ui.sidebar():
         label=ui.HTML('<b>Docking Status</b>'),
         choices=list(docking_status_codes.values()),
         selected=list(docking_status_codes.values()),
-        # selected=['At Station'],
-        # inline=False,
-        # width=None,
     )
 
 with ui.layout_columns():
@@ -103,7 +98,7 @@ with ui.layout_columns():
             # Attach bikes to neighborhoods
             bikes_per_nbhd_df = demo11.count_bikes_per_nbhd(filtered_bikes_df).reset_index()
 
-            # Plot 10 highest
+            # Plot 20 highest
             fig = px.bar(
                 bikes_per_nbhd_df.head(20), 
                 x='nbhd', 
