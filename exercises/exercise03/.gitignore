@@ -1,7 +1,5 @@
 
-# Any csv file
-*.csv
-
-# Any parquet file
-*.parquet
-*.geoparquet
+md_eviction_warrants_through_2024.csv
+md_eviction_warrants_through_2024.geoparquet
+geocode_inputs
+geocode_outputs
